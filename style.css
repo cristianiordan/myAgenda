@@ -1,0 +1,203 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #c9d0d4;
+  display: flex;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  background-color: black;
+  width: 50%;
+  height: 100%;
+  border-radius: 25px;
+  color: white;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.title--component {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 12px;
+  letter-spacing: 1px;
+  margin: 0 0 30px;
+  padding: 10px 15px 8px;
+}
+
+.utilities {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: min-content;
+  align-items: center;
+}
+
+form,
+.add--number {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  height: min-content;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.contact-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 300;
+  height: min-content;
+  cursor: pointer;
+  border-bottom: thin thistle solid;
+}
+
+#add-contact {
+  width: 30px;
+  height: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.contact-name {
+  width: 100%;
+  height: 100%;
+  padding-right: 50px;
+}
+
+.edit-contact {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  border-top: thin thistle solid;
+  border-bottom: thin thistle solid;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ff4500;
+}
+
+button {
+  border-radius: 12px;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  margin: auto auto;
+}
+
+.phone-number,
+.name {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jqx-listmenu-auto-separator {
+  font-size: 40px;
+  color: #ff4500;
+  padding-left: 5px;
+  margin-right: 25px;
+  margin-left: 20px;
+  margin-top: 25px;
+  border: #ff4500 thin solid;
+  border-radius: 12px;
+  font-family: "Lato", sans-serif;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  background-color: black;
+  color: #ff4500;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  border: 5px #ff4500 solid;
+  border-radius: 12px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.close {
+  color: #ff4500;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal-message {
+  visibility: hidden;
+  color: red;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.jqx-listmenu-header span {
+  visibility: hidden;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: #ff4500;
+  margin-top: 20px;
+  margin-left: 20px;
+  width: min-content;
+  height: min-content;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background-color: black;
+  border-bottom: white thin solid;
+  color: #ff4500;
+  font-size: 20px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.edit-message {
+  visibility: hidden;
+  color: red;
+}
